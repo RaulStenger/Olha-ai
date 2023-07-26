@@ -1,0 +1,45 @@
+body {
+  background-image: url(../Trabalho-de-PI-2-/img/Fundo\ Site.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 75px;
+  padding: 0px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  background-color: #202020;
+  text-align: center;
+  border-radius: 4px;
+  padding: 30px;
+  box-sizing: border-box;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.61);
+}
+
+.menu a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  display: block;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.menu a:hover {
+  background: linear-gradient(to right, #3f3f3f, #3b3a3a);
+  color: #fff;
+  transform: scale(1.1);
+  box-shadow: 0px 0px 5px rgb(0, 0, 0);
+  border-radius: 5px;
+}
